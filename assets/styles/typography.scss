@@ -1,0 +1,176 @@
+// *-*-*--*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+// =====================Typography========================
+// *-*-*--*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+// =====================================
+// Main Font
+// =====================================
+$main-font: "Plus Jakarta Sans", sans-serif;
+$second-font: "Inter", sans-serif;
+// =====================================
+// H1 / Heading 1
+// =====================================
+@mixin heading-1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 120%;
+}
+// =====================================
+// H2 / Heading 2
+// =====================================
+@mixin heading-2 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 120%;
+}
+// =====================================
+// H3 / Heading 3
+// =====================================
+@mixin heading-3 {
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 130%;
+}
+// =====================================
+// H4 / Heading 4
+// =====================================
+@mixin heading-4 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+// =====================================
+// P / Paragraph
+// =====================================
+@mixin paragraph {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 150%;
+}
+// =====================================
+// Body / X Large Bold
+// =====================================
+@mixin body-x-large-bold {
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+// =====================================
+// Body / X Large Medium
+// =====================================
+@mixin body-x-large-medium {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 160%;
+}
+// =====================================
+// Body / Large Bold
+// =====================================
+@mixin body-large-bold {
+  font-weight: 700;
+  font-size: clamp(0.875rem, 4vw, 1.125rem);
+  line-height: 165%;
+}
+// =====================================
+// Body / Large SemiBold
+// =====================================
+@mixin body-large-semiBold {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 165%;
+}
+// =====================================
+// Body / Large Regular
+// =====================================
+@mixin body-large-regular {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 165%;
+}
+// =====================================
+// Body / Medium Bold
+// =====================================
+@mixin body-medium-bold {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 150%;
+}
+// =====================================
+// Body / Medium SemiBold
+// =====================================
+@mixin body-medium-semiBold {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
+}
+// =====================================
+// Body / Medium Medium
+// =====================================
+@mixin body-medium-medium {
+  font-weight: 500;
+  font-size: clamp(0.875rem, 4vw, 1rem);
+  line-height: 150%;
+}
+// =====================================
+// Body / Medium Regular
+// =====================================
+@mixin body-medium-regular {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+}
+// =====================================
+// Body / Small Bold
+// =====================================
+@mixin body-small-bold {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 170%;
+}
+// =====================================
+// Body / Small SemiBold
+// =====================================
+@mixin body-small-semiBold {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 170%;
+}
+// =====================================
+// Body / Small Medium
+// =====================================
+@mixin body-small-medium {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 170%;
+}
+// =====================================
+// Body / Small Regular
+// =====================================
+@mixin body-small-regular {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 170%;
+}
+// =====================================
+// Body / X Small Bold
+// =====================================
+@mixin body-x-small-bold {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 150%;
+}
+// =====================================
+// Body / X Small SemiBold
+// =====================================
+@mixin body-x-small-semiBold {
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 150%;
+}
+// =====================================
+// Body / X Small Regular
+// =====================================
+@mixin body-x-small-regular {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 150%;
+}

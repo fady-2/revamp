@@ -1,0 +1,67 @@
+@import "./variables";
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.alert-flag {
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+.alert-success {
+  background-color: var(--eighthColor);
+  color: var(--successColor);
+}
+.alert-info {
+  background-color: var(--tweleveColor);
+  color: var(--blueColor);
+}
+.alert-grey {
+  background-color: var(--thirthColor);
+  color: var(--greyColor);
+}
+.alert-danger {
+  background-color: var(--tenthColor);
+  color: var(--redColor);
+}
+.alert-warning {
+  background-color: var(--elevenColor);
+  color: var(--yellowColor);
+}
+.primary {
+  background-color: var(--firstColor);
+  color: white;
+}
+.btns{
+  display: flex;
+    justify-content: flex-end;
+}
+.secondary {
+  background-color: var(--fifthColor);
+  border-color: var(--fifthColor);
+  color: var(--firstColor);
+}
+
+.danger {
+  background-color: var( --redColor);
+  border-color: var( --redColor);
+  color: var(--white);
+}
+
+.white {
+  background-color: var(--white);
+  border-color: var(--white);
+  color: var(--secondColor);
+}
+.thirdy{
+  background-color: var( --blueColor2);
+  border-color: var( --blueColor2);
+  color: var(--white);
+}
+.gray {
+  border: 1px solid #d0d5dd;
+  color: var(--greyColor);
+  background-color: var(--white);
+}
